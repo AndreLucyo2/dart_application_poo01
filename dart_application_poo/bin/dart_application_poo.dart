@@ -15,7 +15,7 @@ void main(List<String> args) {
 
 funcMenuPrincipal() {
   //Limpa a tela do console:
-  print("\x1B[2J\x1B[0;0H");
+  //print("\x1B[2J\x1B[0;0H");
   print('--- MENU PRINCIPAL ---');
   print('--- 1 Cadastrar usuario');
   print('--- 2 Acessar Conta');
@@ -42,7 +42,7 @@ funcMenuPrincipal() {
 }
 
 funcValidaUser() {
-  //Limpa a tela:
+  //Limpa a tela do console:
   print("\x1B[2J\x1B[0;0H");
   print('---VALIDAR ACESSO ----');
   print('---Informe seu nome:');
