@@ -3,7 +3,6 @@ import 'dart:io';
 class Banco {
   String _nome;
   num cpf;
-
   num _senha;
   num _saldo = 0; //inicia com zero
 
@@ -27,15 +26,15 @@ class Banco {
     print('---Informe o nome: ');
     nome = stdin.readLineSync();
 
-    print('---Informe o CPF: ');
-    cpf = int.parse(stdin.readLineSync());
+    //print('---Informe o CPF: ');
+    //cpf = int.parse(stdin.readLineSync());
 
     print('---Informe sua senha: ');
     senha = int.parse(stdin.readLineSync());
 
     print('Usuario cadastrado com sucesso!');
-    stdin.readLineSync();
     stdout.writeln('--------------------------------------------');
+    stdin.readLineSync();
   }
 
   void depositar() {
