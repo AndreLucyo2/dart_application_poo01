@@ -1,0 +1,3 @@
+class Avo {
+  String nomeDoAvo;
+}
