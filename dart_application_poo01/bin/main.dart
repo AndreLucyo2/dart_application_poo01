@@ -1,7 +1,6 @@
-import 'package:dart_application_poo/dart_application_poo.dart'
-    as dart_application_poo;
 import 'dart:io';
-import 'modelo/banco.dart';
+
+import 'package:dart_application_poo01/models/banco.dart';
 
 //Instancia o banco:
 Banco c1 = Banco();
@@ -12,7 +11,6 @@ void main(List<String> args) {
     funcMenuPrincipal();
   } while (cmdMnuPrinc);
 }
-
 funcMenuPrincipal() {
   //Limpa a tela do console:
   //print("\x1B[2J\x1B[0;0H");

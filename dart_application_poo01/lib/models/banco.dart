@@ -48,6 +48,7 @@ class Banco {
 
     if (saldo < saque || saldo <= 0) {
       print('Saldo insuficiente!');
+      stdin.readLineSync();
     } else {
       saldo = -saque;
     }
