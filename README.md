@@ -6,7 +6,7 @@ Link Udemy == [link ](https://www.udemy.com/share/102u9sB0Qac1dbR3w=/)
 
 Aplicado GitFlow. [link do gitflow]([https://danielkummer.github.io/git-flow-cheatsheet/)
 
-![image-20210501152809555](\image\README\image-20210501152809555.png)
+![image-20210501152809555](./image/README/image-20210501152809555.png)
 
 Instalado uma extensão no VisualCode:  [GitFlow]([https://github.com/vector-of-bool/vscode-gitflow)
 
