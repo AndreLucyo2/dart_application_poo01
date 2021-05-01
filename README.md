@@ -6,7 +6,13 @@ Link Udemy == [link ](https://www.udemy.com/share/102u9sB0Qac1dbR3w=/)
 
 Aplicado GitFlow. (link do gitflow)[https://danielkummer.github.io/git-flow-cheatsheet/]
 
+![image-20210501152809555](H:\Noot_DELL\Dev_Software\WorkSpaceDart\dart-POO-para-quem-gosta-de-aprender\image\README\image-20210501152809555.png)
+
 Instalado uma extensão no VisualCode:  (GitFlow)[https://github.com/vector-of-bool/vscode-gitflow]
 
-![image-20210501151247532](C:\Users\Andre\AppData\Roaming\Typora\typora-user-images\image-20210501151247532.png)
+![image-20210501152707673](H:\Noot_DELL\Dev_Software\WorkSpaceDart\dart-POO-para-quem-gosta-de-aprender\image\README\image-20210501152707673.png)
+
+O uso do git flow, pode ser iniciado diretamente pelo git Bash:
+
+![image-20210501152619901](H:\Noot_DELL\Dev_Software\WorkSpaceDart\dart-POO-para-quem-gosta-de-aprender\image\README\image-20210501152619901.png)
 
