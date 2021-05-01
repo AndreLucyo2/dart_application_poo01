@@ -8,6 +8,7 @@ void main(List<String> arguments) {
   var funcionario1 = Funcionario(
     pessoa: Pessoa(nome: 'Andre', sobreNome: 'Lucio'),
     dataEntrada: '02/02/2005',
+    cargo: 'Atendente',
     salario: 15000,
   );
 
@@ -20,7 +21,8 @@ void main(List<String> arguments) {
   var presidente1 =
       Presidente(pessoa: Pessoa(nome: 'Lucas', sobreNome: 'Silva'));
 
-  print('O funcionario se chama ${funcionario1.pessoa.nome}');
+  print(
+      'O funcionario se chama ${funcionario1.pessoa.nome} , possui cargo ${funcionario1.cargo}');
 
   print('O gerente se chama ${gerente1.pessoa.nome}');
   gerente1.marcarReunicao();
