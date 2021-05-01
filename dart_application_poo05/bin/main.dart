@@ -4,19 +4,19 @@ import 'models/pessoa.dart';
 import 'models/presidente.dart';
 
 void main(List<String> arguments) {
-  //instacia funcuionario:
+  //Instacia funcionários:
   var funcionario1 = Funcionario(
     pessoa: Pessoa(nome: 'Andre', sobreNome: 'Lucio'),
     dataEntrada: '02/02/2005',
     salario: 15000,
   );
 
-  //instacia Gerente:
+  //instacia Gerentes:
   var gerente1 = Gerente(
     pessoa: Pessoa(nome: 'Pedro', sobreNome: 'Cavalho'),
   );
 
-//instacia presidente:
+//instacia presidentes:
   var presidente1 =
       Presidente(pessoa: Pessoa(nome: 'Lucas', sobreNome: 'Silva'));
 
