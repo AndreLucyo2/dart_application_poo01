@@ -7,12 +7,12 @@ class Presidente {
 
   Presidente({this.pessoa, this.funcionario});
 
-  fazerInvestimento() {
+  void fazerInvestimento() {
     print(
         'Nosso presidente ${pessoa.nome} fez um investimento em nossa empresa!');
   }
 
-  venderAcoes() {
+  void venderAcoes() {
     print('Nosso presidente ${pessoa.nome} esta comprando ações!');
   }
 }
