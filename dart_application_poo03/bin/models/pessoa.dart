@@ -2,13 +2,13 @@ class PessoaA {
   String _nome;
   int _idade;
 
-  get nome => this._nome;
+  String get nome => _nome;
 
-  set nome(value) => this._nome = value;
+  set nome(value) => _nome = value;
 
-  get idade => this._idade;
+  int get idade => _idade;
 
-  set idade(value) => this._idade = value;
+  set idade(value) => _idade = value;
 
   //Estudo de construtores Dart.
   PessoaA({String nome, int idade}) {

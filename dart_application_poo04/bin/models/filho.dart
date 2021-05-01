@@ -11,7 +11,7 @@ class Filho extends Pai with Avo {
   Filho([this.nomeFilho]);
 
   @override
-  caracteristicas() {
+  void caracteristicas() {
     //Usa o metodo da classe pai e reescreve:
     print('Eu herdei de meu pas as caracteristicas');
     return super.caracteristicas();

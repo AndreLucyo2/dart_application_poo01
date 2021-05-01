@@ -1,4 +1,4 @@
 abstract class Porta {
-  abrir();
-  fechar();
+  void abrir();
+  void fechar();
 }

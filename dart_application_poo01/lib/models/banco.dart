@@ -6,21 +6,21 @@ class Banco {
   num _senha;
   num _saldo = 0; //inicia com zero
 
-  get nome => this._nome;
+  String get nome => _nome;
 
-  set nome(value) => this._nome = value;
+  set nome(value) => _nome = value;
 
-  num get getCpf => this.cpf;
+  num get getCpf => cpf;
 
   set setCpf(num cpf) => this.cpf = cpf;
 
-  get senha => this._senha;
+  num get senha => _senha;
 
-  set senha(value) => this._senha = value;
+  set senha(value) => _senha = value;
 
-  get saldo => this._saldo;
+  num get saldo => _saldo;
 
-  set saldo(value) => this._saldo += value; //soma ao valor informado
+  set saldo(value) => _saldo += value; //soma ao valor informado
 
   void criarConta() {
     print('---Informe o nome: ');
@@ -44,7 +44,7 @@ class Banco {
 
   void sacar() {
     print('---Informe o valor para ser sacado: ');
-    num saque = num.parse(stdin.readLineSync());
+    var saque = num.parse(stdin.readLineSync());
 
     if (saldo < saque || saldo <= 0) {
       print('Saldo insuficiente!');
