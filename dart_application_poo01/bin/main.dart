@@ -11,7 +11,8 @@ void main(List<String> args) {
     funcMenuPrincipal();
   } while (cmdMnuPrinc);
 }
-funcMenuPrincipal() {
+
+void funcMenuPrincipal() {
   //Limpa a tela do console:
   //print("\x1B[2J\x1B[0;0H");
   print('--- MENU PRINCIPAL ---');
@@ -19,7 +20,7 @@ funcMenuPrincipal() {
   print('--- 2 Acessar Conta');
   print('--- 3 Para Sair!');
 
-  int opc = int.parse(stdin.readLineSync());
+  var opc = int.parse(stdin.readLineSync());
 
   switch (opc) {
     case 1:
@@ -39,15 +40,15 @@ funcMenuPrincipal() {
   }
 }
 
-funcValidaUser() {
+void funcValidaUser() {
   //Limpa a tela do console:
-  print("\x1B[2J\x1B[0;0H");
+  print('\x1B[2J\x1B[0;0H');
   print('---VALIDAR ACESSO ----');
   print('---Informe seu nome:');
-  String nome = stdin.readLineSync();
+  var nome = stdin.readLineSync();
 
   print('---Informe sua senha:');
-  num senha = num.parse(stdin.readLineSync());
+  var senha = num.parse(stdin.readLineSync());
 
   if (nome == c1.nome && senha == c1.senha) {
     funcConta();
@@ -58,12 +59,12 @@ funcValidaUser() {
   }
 }
 
-funcConta() {
-  bool cmdMnu = true;
+void funcConta() {
+  var cmdMnu = true;
 
   do {
     //Limpa a tela:
-    print("\x1B[2J\x1B[0;0H");
+    print('\x1B[2J\x1B[0;0H');
 
     print('--- OPÇÕES DA CONTA ----');
     print('---1 Verificar saldo');
@@ -71,7 +72,7 @@ funcConta() {
     print('---3 Sacar');
     print('---4 Menu anterior');
 
-    int opc = int.parse(stdin.readLineSync());
+    var opc = int.parse(stdin.readLineSync());
 
     switch (opc) {
       case 1:

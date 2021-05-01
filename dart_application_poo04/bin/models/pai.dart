@@ -3,7 +3,7 @@ class Pai {
   bool trabalhador;
   String nomeDoPai;
 
-  caracteristicas() {
+  void caracteristicas() {
     print('Olhos azuis, cabelo liso e alto.');
   }
 }
