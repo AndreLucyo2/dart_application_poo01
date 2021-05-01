@@ -9,10 +9,10 @@ class Gerente {
   Gerente({this.pessoa, this.funcionario});
 
   void marcarReunicao() {
-    print('O Gerente ${pessoa.nome} marcou uma reunião na data ${data}');
+    print('O Gerente ${pessoa.nome} marcou uma reunião na data ${data}.');
   }
 
   void realizarContracao() {
-    print('O Gerente ${pessoa.nome} contratou um novo funcionario');
+    print('O Gerente ${pessoa.nome} contratou um novo funcionario.');
   }
 }
