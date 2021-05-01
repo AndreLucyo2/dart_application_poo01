@@ -1,6 +1,3 @@
-import 'package:dart_application_poo03/dart_application_poo03.dart'
-    as dart_application_poo03;
-
 import 'models/pessoa.dart';
 
 void main(List<String> arguments) {
