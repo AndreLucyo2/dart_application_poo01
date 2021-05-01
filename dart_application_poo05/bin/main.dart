@@ -17,7 +17,7 @@ void main(List<String> arguments) {
     pessoa: Pessoa(nome: 'Pedro', sobreNome: 'Cavalho'),
   );
 
-//instacia presidentes:
+//instacia presidente:
   var presidente1 =
       Presidente(pessoa: Pessoa(nome: 'Lucas', sobreNome: 'Silva'));
 
